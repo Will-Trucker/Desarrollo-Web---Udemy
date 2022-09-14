@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;800&display=swap%27);
+
+:root{
+    /* Primary /
+    --LinearGradient1:  #696fdd;
+    --LinearGradient2: #a3a8f0;
+    / ### Neutral */
+    --VeryLightGrayishBlue: #f6f6fe;
+    --font: 'Montserrat', sans-serif;
+    --blanco: #FFFF;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+body{
+    font-family: var(--font);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 15px;
+   
+}
+
+.tarjeta{
+    height: 480px;
+    width: 350px;
+    border-radius: 5%;
+    background: linear-gradient(250deg, #696fdd, #a3a8f0);
+    text-align: center;
+    color: var(--blanco);
+    line-height: 3rem;
+}
+
+@media (max-width:390px){
+    .tarjeta{
+        width: 340px;
+    }
+}
+
+.plan-tipo{
+    font-size: 1rem;
+    margin-top: -5%;
+}
+
+.plan-precio{
+    font-size: 3.8rem;
+    margin-top: 6%;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+   font-weight: bold;
+   font-size: 1.2rem;
+}
+
+hr{
+    background: rgb(255, 255, 255); 
+    width: 80%; 
+    height:2px; 
+    border: none;
+    margin-left: 10%;
+    line-height: 1.8rem;
+}
+
+.boton{
+    cursor: pointer;
+    font-family: var(--font);
+    font-weight: bold;
+    color: #696fdd;
+    border-radius: 6px;
+    border: none;
+    background: var(--VeryLightGrayishBlue); 
+    height: 3rem;
+    width: 18rem;
+    margin-top: 11%;
+    font-size: 1rem;
+}
+
+@media(min-width:360px){
+ .boton{
+    width: 17.5rem;
+ }
+}
+
+/*button:hover{
+    transition: 0.5s;
+    transform: scale(100%);
+}*/
+
+.enlace{
+    cursor: default;
+}
+
+
