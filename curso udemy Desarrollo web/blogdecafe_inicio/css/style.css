@@ -5,7 +5,7 @@
     --gris: #e1e1e1;
     --primario: #784D3C;
     --blanco: #fff;
-    
+    --negro: #000000;
 } 
 
 html{
@@ -36,6 +36,7 @@ a{
 
 h1, h2, h3, h4{
     font-family: var(--fuenteHeading);
+    line-height: 1.2;
 }
 
 h1{
@@ -98,6 +99,10 @@ img{
     }
 }
 
+.barra{
+    padding-top: 4rem;
+}
+
 .logo{
   color: var(--blanco);
 }
@@ -147,14 +152,17 @@ img{
     font-family: var(--fuenteHeading);
     color: var(--blanco);
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 3rem;
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
-    
+    border: none;       
 }
 
+.boton:hover{
+    cursor: pointer;
+}
 @media (min-width:768px){
     .boton{
         display: inline-block;
@@ -165,3 +173,104 @@ img{
   background-color: black; 
 }
 
+.boton--secundario{
+    background-color: var(--primario);
+}
+
+.cursos{
+    list-style: none;
+}
+
+.widget-curso{
+  border-bottom: solid var(--gris);
+  margin-bottom: 2rem;
+}
+
+.widget-curso:last-of-type{
+    border: none;
+    margin: 0;
+}
+
+.widget-curso__label{
+  font-family: var(--fuenteHeading);
+  font-weight: bold;
+}
+
+.widget-curso__info{
+  font-family: var(--fuenteParrafo);
+  font-weight: normal;
+}
+
+.widget-curso__label,
+.widget-curso__info{
+ font-size: 2rem;
+}
+
+.footer{
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+/* Sobre Nosotros */
+@media (min-width:768px){
+   .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 2rem;
+    }
+}
+
+
+.curso{
+ padding: 3rem 0;
+ border-bottom: 1px solid var(--gris);
+}
+
+@media(min-width:768px){
+    .curso{
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     column-gap: 2rem;
+    }
+}
+
+.curso:last-of-type{
+    border: none;
+}
+
+/** Contacto **/
+.contacto-bg{
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario{
+ background-color: var(--blanco);
+ margin: -5rem auto 0 auto; /* Hacia arriba */
+ width: 95%;
+ padding: 5rem;
+}
+
+.campo{
+ display: flex;
+ margin-bottom: 2rem;
+
+}
+
+.campo__label{
+ flex: 0 0 9rem;
+ text-align: right;
+ padding-right: 2rem;
+}
+
+.campo__field{
+ flex: 1;
+ border: 1px solid var(--gris);
+}
+
+.campo__field--textarea{
+ height: 20rem;
+}
