@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Transacciones Cajero ATM</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/boostrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <form id="form1" method="post">
+        <section id="wrap">
+            <section id="top"></section>
+            <section id="content">
+                <header class="header">
+                    <h1><a href="#">Cajero ATM</a></h1>
+                    <h2>Transacciones online</h2>
+                </header>
+                <article class="breadcrumbs">@Html.ActionLink("INICIO", "/")</article>
+                @RenderBody()
+                <article id="clear"></article>
+            </section>
+            <section id="bottom"></section>
+        </section>
+       
+    </form>
+    <footer id="footer">
+        <a href="http://www.udb.edu.sv">Universidad Don Bosco</a>
+    </footer>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

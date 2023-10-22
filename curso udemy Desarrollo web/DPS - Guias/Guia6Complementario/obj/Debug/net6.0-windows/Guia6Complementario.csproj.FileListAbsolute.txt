@@ -1,0 +1,17 @@
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\bin\Debug\net6.0-windows\Guia6Complementario.exe
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\bin\Debug\net6.0-windows\Guia6Complementario.deps.json
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\bin\Debug\net6.0-windows\Guia6Complementario.runtimeconfig.json
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\bin\Debug\net6.0-windows\Guia6Complementario.dll
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\bin\Debug\net6.0-windows\Guia6Complementario.pdb
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\obj\Debug\net6.0-windows\Guia6Complementario.csproj.AssemblyReference.cache
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\obj\Debug\net6.0-windows\Guia6Complementario.Form1.resources
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\obj\Debug\net6.0-windows\Guia6Complementario.csproj.GenerateResource.cache
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\obj\Debug\net6.0-windows\Guia6Complementario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\obj\Debug\net6.0-windows\Guia6Complementario.AssemblyInfoInputs.cache
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\obj\Debug\net6.0-windows\Guia6Complementario.AssemblyInfo.cs
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\obj\Debug\net6.0-windows\Guia6Complementario.csproj.CoreCompileInputs.cache
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\obj\Debug\net6.0-windows\Guia6Complementario.dll
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\obj\Debug\net6.0-windows\refint\Guia6Complementario.dll
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\obj\Debug\net6.0-windows\Guia6Complementario.pdb
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\obj\Debug\net6.0-windows\Guia6Complementario.genruntimeconfig.cache
+C:\Users\willi\Documents\DPS - Guias\Guia6Complementario\obj\Debug\net6.0-windows\ref\Guia6Complementario.dll

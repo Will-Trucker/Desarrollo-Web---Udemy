@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "VerificarSaldo";
+}
+
+<article class="middle">
+    <h2>Bienvenido a Transferencias Internacionales</h2>
+    Innovando las transacciones en línea, ponemos a su disposición el cajero ATM online
+    donde podrá realizar sus pagos y transferencias internacionales de una forma rápida y fácil
+    siempre con la calidad y la confianza que nos caracterizan. Realice sus transacciones internacionales
+    desde la comodidad de su hogar las 24 horas del día los 7 días de la semana.
+
+    <div class="credenciales">
+        <div class="bloque">
+            <label class="etiqueta">Tarjeta #:</label>
+            <label class="control">@ViewBag.sNumeroTarjeta</label>
+        </div>
+        <div class="clear"></div>
+        <div class="bloque">
+            <label class="etiqueta">Saldo:</label>
+            <label class="control">@ViewBag.sSaldo</label>
+        </div>
+        <div class="clear"></div>
+    </div>
+</article>
+
+<nav class="right">
+    <ul>
+        <li>
+            @Html.ActionLink("Transferencias nacionales", "someaction", "somecontroller", new { id = "123" }, null)
+        </li>
+        <li>
+            @Html.ActionLink("Transferencias internacionales", "someaction", "somecontroller", new { id = "123" }, null)
+        </li>
+        <li>
+            @Html.ActionLink("Pago de Servicios", "someaction", "somecontroller", new { id = "123" }, null)
+        </li>
+        <li>
+            @Html.ActionLink("Verificar Saldos", "someaction", "somecontroller", new { id = "123" }, null)
+        </li>
+    </ul>
+</nav>
+

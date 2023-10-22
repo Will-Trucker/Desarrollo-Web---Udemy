@@ -1,0 +1,24 @@
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe.config
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.pdb
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csprojResolveAssemblyReference.cache
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.Form1.resources
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.Properties.Resources.resources
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.GenerateResource.Cache
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.exe
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.pdb
+C:\Users\ReneTT\Documents\b_Ciclo2015-2\DesaAplicSoftwareProp_DSP404\DSP404_Practicas\Guia06_DSP\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe.config
+C:\Users\ReneTT\Documents\b_Ciclo2015-2\DesaAplicSoftwareProp_DSP404\DSP404_Practicas\Guia06_DSP\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.pdb
+E:\disco datos\ciclos\CicloII-2015\DSP\Guias_Labo_C#\Guia06\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe.config
+E:\disco datos\ciclos\CicloII-2015\DSP\Guias_Labo_C#\Guia06\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.pdb
+C:\Users\willi\Documents\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe.config
+C:\Users\willi\Documents\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe
+C:\Users\willi\Documents\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.pdb
+C:\Users\willi\Documents\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.AssemblyReference.cache
+C:\Users\willi\Documents\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.SuggestedBindingRedirects.cache
+C:\Users\willi\Documents\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.Form1.resources
+C:\Users\willi\Documents\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.Properties.Resources.resources
+C:\Users\willi\Documents\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.GenerateResource.cache
+C:\Users\willi\Documents\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\willi\Documents\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.exe
+C:\Users\willi\Documents\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.pdb

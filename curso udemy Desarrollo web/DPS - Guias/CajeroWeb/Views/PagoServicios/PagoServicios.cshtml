@@ -1,0 +1,83 @@
+﻿
+@{
+    ViewBag.Title = "PagoServicios";
+}
+
+@{
+    var servicios = new List<SelectListItem>(){
+        new SelectListItem { Text = "Energía Eléctrica", Value = "eg"},
+        new SelectListItem { Text = "Colegiatura", Value = "col"},
+        new SelectListItem { Text = "Servicio de Alcantarillado", Value = "agu", Selected = true},
+        new SelectListItem { Text = "Servicio de Telefonía", Value = "tel"}
+    };
+}
+
+<article class="middle">
+    <h2>Bienvenido a Transferencias Internacionales</h2>
+    Innovando las transacciones en línea, ponemos a su disposición el cajero ATM online
+    donde podrá realizar sus pagos y transferencias internacionales de una forma rápida y fácil
+    siempre con la calidad y la confianza que nos caracterizan. Realice sus transacciones internacionales
+    desde la comodidad de su hogar las 24 horas del día los 7 días de la semana.
+
+    <div class="credenciales">
+        <div class="bloque">
+            <label class="etiqueta">Tarjeta #:</label>
+            <label class="control">@ViewBag.sNumeroTarjeta</label>
+        </div>
+        <div class="clear"></div>
+        <div class="bloque">
+            <label class="etiqueta">Saldo:</label>
+            <label class="control">@ViewBag.sSaldo</label>
+        </div>
+        <div class="clear"></div>
+        <div class="bloque">
+            @Html.Label("Servicios:", new { @class = "etiqueta" })
+            @Html.DropDownList("misServicios", servicios, new { @class = "control" })
+        </div>
+        <div class="bloque">
+            @Html.Label("Cantidad:", new { @class = "etiqueta" });
+            @Html.Editor("cantidad", "", new { @class = "control" });
+        </div>
+        <div class="bloque">
+            <button type="submit" ID="btnEntrar" CssClass="submit" runat="server" onclick="location.href('@Url.Action("InternacionalesNuevo", "Internacionales")')">Ingresar</button>
+        </div>
+        <div class="clear"></div>
+    </div>
+    @using (Html.BeginForm())
+    {
+        <div class="bloque">
+            <label class="error">@ViewBag.Error</label>
+        </div>
+    }
+</article>
+
+<nav class="right">
+    <ul>
+        <li>
+            @Html.ActionLink("Transferencias nacionales", "Nacionales", "Nacionales", new
+            {
+           sNumeroTarjeta = ViewBag.sNumeroTarjeta,
+                sSaldo = ViewBag.sSaldo
+            }, null)
+        </li>
+        <li>
+            @Html.ActionLink("Transferencias internacionales", "Internacionales", "Internacionales", new
+       {
+           sNumeroTarjeta = ViewBag.sNumeroTarjeta,
+           sSaldo = ViewBag.sSaldo
+       }, null)
+        </li>
+        <li>
+            @Html.ActionLink("Pagos de Servicios", "Menuopcion", "Home", new { opcion = 3 },
+            null)
+        </li>
+        <li>
+            @Html.ActionLink("Verificar saldos", "VerificarSaldo", "VerificarSaldo", new
+            {
+              sNumeroTarjeta = ViewBag.sNumeroTarjeta,
+                sSaldo = ViewBag.sSaldo
+            }, null)
+        </li>
+    </ul>
+</nav>
+

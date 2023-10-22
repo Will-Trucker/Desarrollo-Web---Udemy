@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<article class="middle">
+    <h2>Bienvenido</h2>
+    Innovando las transacciones en línea, ponemos a su disposición el 
+    cajero ATM online donde podrá realizar sus pagos y transferencias 
+    en línea de una forma rápida y fácil siempre con la calidad y la 
+    confianza que nos caracterizan. Realice sus transacciones desde la 
+    comodidad de su hogar las 24 horas del día los 7 días de la semana.
+
+    <div class="credenciales">
+        <div class="bloque">
+            @Html.Label("Tarjeta #:", new { @class = "etiqueta" });
+            @Html.Editor("sNumeroTarjeta", "", new { @class = "control" });
+        </div>
+        <div class="clear"></div>
+        <div class="bloque">
+            @Html.Label("PIN:", new { @class = "etiqueta" });
+            @Html.Editor("sNumeroPIN", "", new { @class = "control" });
+        </div>
+        <div class="bloque">
+            <button type="submit" ID="btnEntrar" CssClass="submit" runat="server"
+                    onclick="location.href('@Url.Action("Index", "Home")')">
+                Ingresar
+            </button>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        <div class="bloque">
+            <label class="error">@ViewBag.Error</label>
+        </div>
+    }
+</article>
+
+<article class="right">
+    <img src="~/Content/images/200253863-001.jpg" class="bannerRight"  />
+</article>
+
