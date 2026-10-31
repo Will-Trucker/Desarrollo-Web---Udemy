@@ -25,11 +25,15 @@ const carrito = [  // Arreglo con Objetos
 
 for(let i=0; i < carrito.length; i++){
     console.log(carrito[i].nombre);
-    
 }
 
 // While Loop
 
+let i = 0;
 
+while(i < 10){ // condicion
+    console.log(i);
+    i++; // indice
+}
 
 // Do While Loop
